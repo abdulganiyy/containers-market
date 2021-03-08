@@ -1,0 +1,48 @@
+.Product {
+  width: 450px;
+  height: 300px;
+  display: flex;
+  margin: 0.5rem;
+  border-radius: 20px;
+  box-shadow: 2px 3px 5px #ccc;
+  box-sizing: border-box;
+}
+
+.Product p {
+  /* display: inline-block; */
+  margin: 0;
+  padding: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .Product {
+    width: 90%;
+  }
+}
+
+.Info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  border-radius: 20px 0 0 20px;
+}
+
+.Img {
+  width: 40%;
+  border-radius: 0 20px 20px 0;
+}
+
+.Button {
+  display: inline-block;
+  border: 1px solid blue;
+  outline: none;
+  padding: 1rem;
+  text-align: center;
+  color: blue;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
